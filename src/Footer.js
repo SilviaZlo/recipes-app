@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer>
             <div class="wrapper">
-                <a href="https://www.junocollege.com" target="_blank"><p>Created at Juno College</p></a>
+                <a href="https://www.junocollege.com" target="_blank" rel="noreferrer"><p>Created at Juno College</p></a>
             </div>
         </footer>
     )
