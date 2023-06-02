@@ -51,8 +51,9 @@ body {
 }
 
 header {
-  padding: 100px 150px 50px;
-  background-image: url(./assets/header-background-image.png);
+  padding: 100px 150px 250px;
+  background-image: url(
+    ../assets/header-background-image.png);
   background-color: rgb(215, 215, 239);
   /* // rgb(215, 215, 239);; */
   background-size: contain;
@@ -60,56 +61,10 @@ header {
 
 .headerSpan {
   background-color: rgb(215, 215, 239);
-  padding: 10px 30px;
+  padding: 30px 90px;
   /* width: 50%; */
   text-align: center;
 }
 
-form {
-  background-image: url(./assets/header-background-image.png);
-  /* rgb(215, 215, 239); */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.formLabel {
-  margin: 50px;
-}
 
-button {
-  max-width: 500px;
-}
-
-.selectionButton {
-  max-width: 500px;
-  text-align: center;
-}
-
-.photos {
-  list-style-type: none;
-}
-
-.recipesContainer {
-  display: flex;
-  justify-content: left;
-  flex-flow: row-reverse;
-  align-items: center;
-}
-
-.recipesContainer img {
-  border-radius: 50%;
-  border: 5px solid white;
-}
-
-footer {
-  background-color: rgb(237, 208, 199);
-  padding: 2px 0px;
-}
-
-footer a {
-  color: rgb(237, 118, 81);
-  text-decoration: none;
-
-}

@@ -1,3 +1,6 @@
+import './styles/Footer.css';
+
+
 const Footer = () => {
 
     console.log('Footer is rendering.');

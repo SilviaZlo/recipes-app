@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 
 import axios from "axios";
 
+import './styles/Recipes.css';
+
 const Recipes = () => {
 
     console.log('Recipes are rendering!');

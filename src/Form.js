@@ -1,5 +1,6 @@
 // import useState
 import { useState } from "react";
+import './styles/Form.css';
 
 const Form = ({handleSubmit}) => {
 
@@ -31,7 +32,7 @@ const Form = ({handleSubmit}) => {
             handleSubmit(e, selection)
         }}>
 
-        <label class="formLabel">Filter the recipes by choosing one of the following cuisines:</label>
+        <label class="formLabel">Filter recipes by choosing one of the following cuisines:</label>
         {/* CONTROL aka BIND your inputs! */}
         {/* 1. bind an onChange event to the dropdown */}
         {/* 1A. pass it an event handler */}
