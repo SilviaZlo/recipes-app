@@ -64,7 +64,8 @@ const Recipes = () => {
                 {
                     // 1C. map through the state array and for each object in the array we will return a Pic component
                     // pass down: the image URL, a unique id, and alt text via props
-                    
+                    // 
+
                     recipePics.map((recipeObj) => {
                         return (
                         <div class="recipesContainer">

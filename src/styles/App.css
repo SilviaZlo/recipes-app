@@ -50,21 +50,6 @@ body {
   background-color: rgb(237, 234, 233);
 }
 
-header {
-  padding: 100px 150px 250px;
-  background-image: url(
-    ../assets/header-background-image.png);
-  background-color: rgb(215, 215, 239);
-  /* // rgb(215, 215, 239);; */
-  background-size: contain;
-}
-
-.headerSpan {
-  background-color: rgb(215, 215, 239);
-  padding: 30px 90px;
-  /* width: 50%; */
-  text-align: center;
-}
 
 
 

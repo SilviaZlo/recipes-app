@@ -1,3 +1,5 @@
+import './styles/Header.css'
+
 const Header = () => {
 
     console.log('Header is rendering.');
