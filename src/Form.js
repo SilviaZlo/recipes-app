@@ -31,14 +31,14 @@ const Form = ({handleSubmit}) => {
         }}>
 
         <label class="formLabel">Filter recipes by choosing one of the following cuisines:</label>
-        {/* CONTROL aka BIND your inputs! */}
-        {/* 1. bind an onChange event to the dropdown */}
-        {/* 1A. pass it an event handler */}
+        {/* CONTROL/BIND the inputs! */}
+        {/* bind an onChange event to the dropdown */}
+        {/* pass it an event handler */}
         <select
             name=""
             id=""
             onChange={handleChange}
-            // 1E. in order to convert this element into a 'controlled input', its value needs to be dictated by React!
+            // in order to convert this element into a 'controlled input', its value needs to be dictated by React.
             value={selection}
             class="selectionButton"
         >
