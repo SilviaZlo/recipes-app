@@ -20,3 +20,8 @@
     margin: 20px 80px;
 }
 
+@media(max-width: 750px) {
+    .recipesContainer {
+        flex-direction: column;
+    }
+}

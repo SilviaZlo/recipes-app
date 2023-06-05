@@ -42,3 +42,9 @@ button:hover {
     text-align: center;
     padding: 5px;
 }
+
+@media(max-width: 600px) {
+    .formLabel {
+        max-width: 400px;
+    }
+} 
