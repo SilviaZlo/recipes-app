@@ -6,8 +6,8 @@ header {
     background-size: contain;
 }
 
-.headerSpan {
-    background-color: rgb(215, 215, 239);
+header h1 span {
+    background-color: rgb(215, 215, 239); 
     padding: 30px 90px;
     /* width: 50%; */
     text-align: center;
