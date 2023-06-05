@@ -1,6 +1,6 @@
 // import useState
 import { useState } from "react";
-import './styles/Form.css';
+import './styles/App.css';
 
 const Form = ({handleSubmit}) => {
 

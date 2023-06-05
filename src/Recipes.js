@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 import axios from "axios";
 
-import './styles/Recipes.css';
+import './styles/App.css';
 
 const Recipes = () => {
 
