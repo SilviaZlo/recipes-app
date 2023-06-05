@@ -148,3 +148,14 @@ button:hover {
   }
 }
 
+/* FOOTER STYLES */
+footer {
+  background-color: rgb(237, 208, 199);
+  padding: 2px 0px;
+}
+
+footer a {
+  color: rgb(237, 118, 81);
+  text-decoration: none;
+
+}

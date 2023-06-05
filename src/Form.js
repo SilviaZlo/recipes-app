@@ -8,21 +8,19 @@ const Form = ({handleSubmit}) => {
 
     // **********************
 
-    // What do we need to implement within this form?
+    // This is what needs to get implemented within the form:
     // * stop the page from reloading on form submit
-    // * how to keep track of the selection the user has made within the dropdown
-    // ** what do we do with the user's selection upon form submit?
+    // * keep track of the cuisine selected by the user (within the dropdown)
+    // *define what to do with the user's selection upon form submit
 
     // **********************
 
-    // 1D. initialize a state to represent the changing selected value within the dropdown
+    // initialize a state to represent the changing selected value within the dropdown
     const [selection, setSelection] = useState("");
 
-    // 1B. define a change event handler
+    // define a change event handler
     // update state to reflect the new choice the user has made within the dropdown
     const handleChange = (e) => {
-        console.log(e);
-
         setSelection(e.target.value);
     }
 
