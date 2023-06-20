@@ -16,9 +16,10 @@
 
 .recipesContainer img {
     border-radius: 50%;
-    border: 5px solid white;
+    border: 10px solid #F2EFC7;
     margin: 20px 80px;
 }
+
 
 @media(max-width: 750px) {
     .recipesContainer {

@@ -1,10 +1,10 @@
 footer {
-    background-color: rgb(237, 208, 199);
+    background-color: #ffdac2;
     padding: 2px 0px;
 }
 
 footer a {
-    color: rgb(237, 118, 81);
+    color: #F06449;
     text-decoration: none;
-
+    font-weight:500;
 }

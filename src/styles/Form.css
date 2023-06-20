@@ -3,37 +3,46 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -240px;
-    /* background-color: rgb(215, 215, 239); */
-    /* width: 50%; */
+    margin-top: -265px;
+    background-color: #F7FFE0;
+    /* #F2EFC7; */
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5%;
 }
 
 .formLabel {
-    margin: 0px 50px 50px ;
-    background-color: rgb(215, 215, 239);
-    padding: 2px 5px 15px;
+    margin: 20px 0px;
+    /* 0px 50px 30px; */
+    /* background-color: #F7FFE0; */
+    /* padding: 10px 100px; */
+    margin-bottom: 30px;
     font-size: 20px;
     width: 500px; 
+    color: black;
+    /* border-radius: 10%; */
 }
 
 select, button {
-    background-color: rgb(237, 234, 233);
     font-size: 20px;
 }
 
 select {
     width: 300px;
-    
+    background-color: #50587c; 
+    color: #FFEEE2;
 }
 
 button {
     margin: 20px 
     10px;
     padding: 5px 30px;
+    background-color: #F06449;
+    color: #F7FFE0;
 }
 
 button:hover {
-    background-color: rgb(237, 208, 199);
+    background-color: #50587C;
     transition: .5s all ease;
 }
 

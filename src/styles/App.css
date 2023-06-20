@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,9 +22,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -36,7 +36,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .wrapper {
   max-width: 1260px;
@@ -47,7 +47,8 @@
 
 body {
   text-align: center;
-  background-color: rgb(237, 234, 233);
+  background-color: #F7FFE0;
+   /* #F7FFE0; */
 }
 
 

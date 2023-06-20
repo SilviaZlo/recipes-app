@@ -1,16 +1,31 @@
 header {
     padding: 100px 150px 250px;
     background-image: url(../assets/header-background-image.png);
-    background-color: rgb(215, 215, 239);
+    background-color: #FFEEE2;
     /* // rgb(215, 215, 239);; */
     background-size: contain;
 }
 
-header h1 span {
-    background-color: rgb(215, 215, 239); 
-    /* padding: 30px 90px; */
-    width: 100%;
-    text-align: center;
+h1 {
+    background-color: #FFEEE2;
+    padding: 40px 0px; 
+    width: 80%;
+    /* margin-left: 10%; */
+    /* text-align: center; */
     /* font-size: 20px; */
+    margin: 0 auto;
 }
 
+@media (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+        margin-left: -30%;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 25px;
+        margin-left: -50%;
+    }
+}

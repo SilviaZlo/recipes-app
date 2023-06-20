@@ -70,6 +70,7 @@ const Recipes = () => {
                         return (
                         <div class="recipesContainer">
                         <p>{recipeObj.title}</p>
+                        <a href={recipeObj.sourceUrl}>How to make this recipe</a> 
                         <Pic
                             key={recipeObj.id}
                             imageSource={recipeObj.image}
