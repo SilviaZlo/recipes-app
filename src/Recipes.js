@@ -2,7 +2,7 @@ import Form from "./Form";
 import Pic from "./Pic";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import './styles/App.css';
+import './styles/Recipes.css';
 
 const Recipes = () => {
 
