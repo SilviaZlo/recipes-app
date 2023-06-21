@@ -4,16 +4,10 @@ import './styles/App.css';
 
 const Form = ({handleSubmit}) => {
 
-    console.log('Form is rendering!');
-
-    // **********************
-
-    // This is what needs to get implemented within the form:
-    // * stop the page from reloading on form submit
-    // * keep track of the cuisine selected by the user (within the dropdown)
-    // *define what to do with the user's selection upon form submit
-
-    // **********************
+    // Form will:
+    // - stop the page from reloading on form submit
+    // - keep track of the cuisine selected by the user (within the dropdown)
+    // - define what to do with the user's selection upon form submit
 
     // initialize a state to represent the changing selected value within the dropdown
     const [selection, setSelection] = useState("");
@@ -31,7 +25,7 @@ const Form = ({handleSubmit}) => {
         }}>
 
         <label class="formLabel">Filter recipes by choosing one of the following cuisines:</label>
-        {/* CONTROL/BIND the inputs! */}
+
         {/* bind an onChange event to the dropdown */}
         {/* pass it an event handler */}
         <select
