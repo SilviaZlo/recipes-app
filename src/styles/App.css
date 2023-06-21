@@ -168,11 +168,30 @@ footer a {
 
 /* MEDIA QUERIES */
 
-/* header media queries */
-@media (max-width: 1000px) {
+@media(max-width: 1000px) {
   h1 {
-    font-size: 25px;
-    margin-left: 30%;
+      font-size: 25px;
+      margin-left: 30%;
+    }
+
+  form {
+    width: 70%;
+  }
+
+  .formLabel {
+    width: 70%;
+  }
+}
+
+@media(max-width: 750px) {
+  .recipesContainer {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    margin: 11% auto;
+  }
+
+  .text {
+    text-align: center;
   }
 }
 
@@ -183,6 +202,11 @@ footer a {
   }
 }
 
+@media(max-width: 600px) {
+  form {
+    width: 70%;
+  }
+
 @media (max-width: 500px) {
   h1 {
     font-size: 25px;
@@ -190,37 +214,12 @@ footer a {
   }
 }
 
-/* form media queries */
-@media(max-width: 1000px) {
-  form {
-    width: 70%;
-  }
-
-  .formLabel {
-    width: 70%;
-  }
-}
-
-@media(max-width: 600px) {
-  form {
-    width: 70%;
-  }
-
   .formLabel {
     max-width: 400px;
   }
 }
 
-  /* recipes media queries */
 
-    @media(max-width: 750px) {
-      .recipesContainer {
-        flex-direction: column;
-        flex-flow: column-reverse;
-        margin: 11% auto;
-      }
+
+
   
-      .text {
-        text-align: center;
-      }
-    }
