@@ -9,4 +9,4 @@ const Pic = ({altText, imageSource}) => {
     )
 }
 
-export default Pic
+export default Pic;
