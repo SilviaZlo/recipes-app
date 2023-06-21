@@ -20,60 +20,37 @@ const Recipes = () => {
             url: 'https://api.spoonacular.com/recipes/complexSearch',
             method: 'GET',
             dataResponse: 'json',
-<<<<<<< HEAD
-=======
-
->>>>>>> 4ab292f3536248e337af3c2152e5bfa58aa6f214
             params: {
                 cuisine: cuisineOptions,
                 apiKey: '22dfd5f34ce14cb7add89275c1fe006c',
                 addRecipeInformation: true,
-<<<<<<< HEAD
             },
         }).then( (response) => {
             
-=======
-
-            },
-        }).then((response) => {
->>>>>>> 4ab292f3536248e337af3c2152e5bfa58aa6f214
 
             // update state using the array returned to us from the API
             setRecipePics(response.data.results);
         });
 
-<<<<<<< HEAD
         //  use the cuisine option state within in the dependency array, so that every time the state changes, the side effect - AKA the API call - runs and gets pics of the chosen cuisine 
-=======
-        // using the cuisine option state within in the dependency array, so that every time the state changes, the side effect - the API call - runs and gets pics of the chosen cuisine 
->>>>>>> 4ab292f3536248e337af3c2152e5bfa58aa6f214
     }, [cuisineOptions]);
     
 
-<<<<<<< HEAD
     // define an event handler which will be passed down to Form via props (Form will trigger/call this function when the form is submitted)
-=======
-    // defining an event handler which will be passed down to Form via props (Form will trigger/call this function when the form is submitted)
->>>>>>> 4ab292f3536248e337af3c2152e5bfa58aa6f214
     const selectCuisine = (event, cuisine) => {
 
         // this func is going to be called when the form is submitted, so it must first STOP the default behaviour of the form submission (= not refresh the page)
         event.preventDefault();
 
-<<<<<<< HEAD
         // console.log('form has been submitted')
         // console.log(cuisine);
 
         //  update the cuisine's recipe photos state with the user's choice
-=======
-        // updating the cuisine's recipe photos state with the user's choice
->>>>>>> 4ab292f3536248e337af3c2152e5bfa58aa6f214
         setCuisineOptions(cuisine);
     }
     console.log(recipePics);
     return (
         <section>
-<<<<<<< HEAD
             {/* pass the form submit event handler func down via props */}
             <Form handleSubmit={selectCuisine} />
             <div class="wrapper">
@@ -99,32 +76,6 @@ const Recipes = () => {
                         )
                     })
                 }
-=======
-            {/* passing the form submit event handler func down via props */}
-            <Form handleSubmit={selectCuisine} />
-            <div class="wrapper">
-                <ul className="photos">
-                    {
-                        // mapping through the state array and for each object in the array we will return a Pic component
-                        // passing down: the recipe title, the recipe details URL, the image URL, a unique id, an alt text via props 
-                        recipePics.map((recipeObj) => {
-                            return (
-                                <div class="recipesContainer">
-                                    <div className="text">
-                                        <p>{recipeObj.title}</p>
-                                        <a href={recipeObj.sourceUrl} target_="blank">Details</a>
-                                    </div>
-                                    <Pic
-                                        key={recipeObj.id}
-                                        imageSource={recipeObj.image}
-                                        altText={recipeObj.title}
-                                    />
-                                </div>
-                            )
-
-                        })
-                    }
->>>>>>> 4ab292f3536248e337af3c2152e5bfa58aa6f214
                 </ul>
             </div>
         </section>
