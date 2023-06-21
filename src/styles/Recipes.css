@@ -10,6 +10,19 @@
     /* margin-top: 80px; */
 }
 
+.text {
+    text-align: left;
+    text-decoration: none;
+}
+
+.text a {
+    text-decoration: none;
+    background-color: #F2EFC7;
+    color: black;
+    padding: 3px 15px;
+    border-radius: 10%;    
+}
+
 .photos {
     margin-top: 100px;
 }
@@ -24,5 +37,11 @@
 @media(max-width: 750px) {
     .recipesContainer {
         flex-direction: column;
+        flex-flow: column-reverse;
+        margin: 11% auto;
+    }
+
+    .text {
+        text-align: center;
     }
 }

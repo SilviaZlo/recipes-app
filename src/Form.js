@@ -32,7 +32,7 @@ const Form = ({handleSubmit}) => {
             handleSubmit(e, selection)
         }}>
 
-        <label class="formLabel">Filter recipes by choosing one of the following cuisines:</label>
+            <div className="formLabel"><label >Filter recipes by choosing one of the following cuisines:</label></div>
         {/* CONTROL aka BIND your inputs! */}
         {/* 1. bind an onChange event to the dropdown */}
         {/* 1A. pass it an event handler */}

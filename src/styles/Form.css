@@ -5,22 +5,18 @@ form {
     align-items: center;
     margin-top: -265px;
     background-color: #F7FFE0;
-    /* #F2EFC7; */
     width: 50%;
-    margin-left: 25%;
+    margin-left: 25%; 
     border-radius: 5%;
 }
 
 .formLabel {
     margin: 20px 0px;
-    /* 0px 50px 30px; */
-    /* background-color: #F7FFE0; */
-    /* padding: 10px 100px; */
     margin-bottom: 30px;
     font-size: 20px;
     width: 500px; 
     color: black;
-    /* border-radius: 10%; */
+
 }
 
 select, button {
@@ -52,7 +48,21 @@ button:hover {
     padding: 5px;
 }
 
+@media(max-width: 1000px) {
+    form {
+        width: 70%;
+    }
+
+    .formLabel {
+        width: 70%;
+    }
+}
+
 @media(max-width: 600px) {
+    form {
+        width: 70%;
+    }
+    
     .formLabel {
         max-width: 400px;
     }

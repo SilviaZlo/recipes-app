@@ -28,6 +28,7 @@ const Recipes = () => {
                 cuisine: cuisineOptions,
                 // query: 'recipe',
                 apiKey: '22dfd5f34ce14cb7add89275c1fe006c',
+                addRecipeInformation: true,
                 
             },
         }).then( (response) => {
@@ -68,18 +69,21 @@ const Recipes = () => {
 
                     recipePics.map((recipeObj) => {
                         return (
-                        <div class="recipesContainer">
-                        <p>{recipeObj.title}</p>
-                        <a href={recipeObj.sourceUrl}>How to make this recipe</a> 
-                        <Pic
-                            key={recipeObj.id}
-                            imageSource={recipeObj.image}
-                            // verificar se no meu api a imagem esta sob urls.regular
-                            altText={recipeObj.title}
-                            // verificar se no meu api a descricao da imagem esta sob alt_description
-                            />
+                            <div class="recipesContainer">
+                                <div className="text">
+                                <p>{recipeObj.title}</p>
+                                <a href={recipeObj.sourceUrl} target_="blank">Details</a>
+                                </div> 
+                                <Pic
+                                    key={recipeObj.id}
+                                    imageSource={recipeObj.image}
+                                    // verificar se no meu api a imagem esta sob urls.regular
+                                    altText={recipeObj.title}
+                                    // verificar se no meu api a descricao da imagem esta sob alt_description
+                                    // recipeDetails={recipeObj.sourceUrl}
+                                    />
                             </div>
-                            )
+                        )
                         
                     })
                 }
